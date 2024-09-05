@@ -14,7 +14,7 @@
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Welcome to CS371" />
+            android:text="Happy Birthday!" />
     </LinearLayout>
 
     <LinearLayout
@@ -41,6 +41,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="HOORAY!!" />
+
+        <Switch
+            android:id="@+id/switch2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="Frosting" />
 
         <Button
             android:id="@+id/button2"
